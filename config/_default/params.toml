@@ -12,7 +12,7 @@
 theme = "dark"
 
 # Enable users to switch between day and night mode?
-day_night = true
+day_night = false
 
 # Override the theme's font set (optional).
 #   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
@@ -86,11 +86,11 @@ edit_page = {repo_url = "https://github.com/johnsojh/a-little-ink", repo_branch 
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "johnson.5316@osu.edu"
-phone = ""
+phone = "614-292-6353"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "231 West 18th Avenue", city = "Columbus", region = "OH", postcode = "43210", country = "United States", country_code = "US"}
+address = {street = "Mathematics Tower (Room 756) 231 West 18th Avenue", city = "Columbus", region = "OH", postcode = "43210", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
@@ -109,7 +109,7 @@ appointment_url = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
+  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/john_h_j"},
   # {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
   # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
   # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
@@ -185,9 +185,9 @@ plugins_js  = []
   #   2: Compact
   #   3: Card
   #   4: Citation (publications only)
-  post_view = 2
-  publication_view = 2
-  talk_view = 2
+  post_view = 3
+  publication_view = 3
+  talk_view = 3
 
 ############################
 ## Comments
