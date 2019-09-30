@@ -1,4 +1,9 @@
-# [Academic Kickstart](https://sourcethemes.com/academic/)
+# A Little Ink
+
+Repo for my website "A Little Ink". My website is using the Academic theme for Hugo. Details from the default installation of Academic is below.
+
+---
+
 
 **Academic** makes it easy to create a beautiful website for free using Markdown, Jupyter, or RStudio. Customize anything on your site with widgets, themes, and language packs. [Check out the latest demo](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the showcase](https://sourcethemes.com/academic/#expo).
 
