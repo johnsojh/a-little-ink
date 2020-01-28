@@ -88,9 +88,11 @@ edit_page = {repo_url = "https://github.com/johnsojh/a-little-ink", repo_branch 
 email = "johnson.5316@osu.edu"
 phone = "614-292-6353"
 
+# Available address formats.
 [address_formats]
   en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
-
+  en-gb = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ', ', '']}
+  zh = {order = ['postcode', 'region', 'city', 'street'], delimiters = [' ', ' ', ' ', '']}
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
 address = {street = "Mathematics Tower (Room 756) 231 West 18th Avenue", city = "Columbus", region = "OH", postcode = "43210", country = "United States", country_code = "US"}
@@ -139,9 +141,10 @@ date_format = "Mon, Jan 2, 2006"
 #   Examples: "3:04 pm" or "15:04"
 time_format = "3:04 PM"
 
-# List delimiter (separates parts of an address)
-# Popular separators are ", " (comma), "<br>" (new line), " " (space)
-list_delimiter = ", "
+# # List delimiter (separates parts of an address)
+# # Popular separators are ", " (comma), "<br>" (new line), " " (space)
+# list_delimiter = ", "
+address_format = "en_us"
 
 ############################
 ## Advanced
@@ -150,8 +153,10 @@ list_delimiter = ", "
 # Get user avatars from Gravatar.com? (true/false)
 gravatar = false
 
-# Align the main menu to the right of the page? (true/false)
-menu_align_right = false
+# # Align the main menu to the right of the page? (true/false)
+# menu_align_right = false
+# Main menu alignment (l = left, c = center, r = right) and logo options.
+main_menu = {align = "l", show_logo = true}
 
 # Show estimated reading time for posts? (true/false)
 reading_time = true
