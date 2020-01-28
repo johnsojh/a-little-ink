@@ -88,6 +88,9 @@ edit_page = {repo_url = "https://github.com/johnsojh/a-little-ink", repo_branch 
 email = "johnson.5316@osu.edu"
 phone = "614-292-6353"
 
+[address_formats]
+  en-us = {order = ['street', 'city', 'region', 'postcode'], delimiters = [', ', ', ', ' ', '']}
+
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
 address = {street = "Mathematics Tower (Room 756) 231 West 18th Avenue", city = "Columbus", region = "OH", postcode = "43210", country = "United States", country_code = "US"}
